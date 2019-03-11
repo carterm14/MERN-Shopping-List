@@ -28,8 +28,6 @@ class ShoppingList extends Component {
     render() {
         const { items } = this.props.item.state; //this is now destructured, change the instances below to destructured
         return ( 
-            //    <h1>{ this.props.item.state.items }</h1>
-          
             <Container>
                 <Button
                     color='dark'
